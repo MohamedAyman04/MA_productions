@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta content="Hello there this is the MA's website" />
+    <meta
+      name="description"
+      content="Welcome to The MA Productions, where innovation meets creation in electronics, programming, and business solutions."
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The MA Productions</title>
@@ -11,122 +14,168 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="./images/anotherone.png">
+    <link rel="icon" href="./images/anotherone.png" />
   </head>
   <body>
     <header>
-      <a href="#top" target="_self" title="back to top" id="sa">
-        <img src="./images/logo.jpg" alt="logo image" />
+      <a href="#top" title="Back to top" id="sa">
+        <img src="./images/anotherone.png" alt="The MA Productions logo" />
       </a>
       <nav class="navigation">
-        <a href="#services" target="_self">Services</a>
-        <a href="#projects" target="_self">Projects</a>
-        <a href="#contact" target="_self">Contact</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
+
     <section class="main">
       <div>
-        <h2>Welcome to<br /><span>the MA Productions</span></h2>
+        <h2>
+          Welcome to<br />
+          <span>the MA Productions</span>
+        </h2>
         <h3>The place to start what's good in your life</h3>
         <a href="#projects" class="main-btn">View Work</a>
         <div class="social-icons">
           <a
             href="https://www.linkedin.com/in/mohamed-ayman-b45b42218/"
             target="_blank"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
+            rel="noopener noreferrer"
+            title="LinkedIn profile"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
           <a
             href="https://www.instagram.com/the_ma_productions/"
             target="_blank"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
+            rel="noopener noreferrer"
+            title="Instagram profile"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
           <a
             href="https://www.facebook.com/The-MA-Productions-112545011433228"
             target="_blank"
-            ><i class="fa-brands fa-facebook"></i
-          ></a>
+            rel="noopener noreferrer"
+            title="Facebook page"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </a>
           <a
-            href="https://www.youtube.com/channel/UCMuRZ8bo8G4oFWlZ0FpirnA"
+            href="https://www.youtube.com/channel/YOUR_YOUTUBE_CHANNEL_ID"
             target="_blank"
-            ><i class="fa-brands fa-youtube"></i
-          ></a>
+            rel="noopener noreferrer"
+            title="YouTube channel (placeholder)"
+          >
+            <i class="fa-brands fa-youtube"></i>
+          </a>
         </div>
       </div>
     </section>
+
     <section class="cards" id="services">
       <h2 class="title">Services</h2>
       <div class="content">
         <div class="card">
-          <div class="icon"><i class="fa-solid fa-robot"></i></div>
-          <div class="info">
-            <h3>Electronics</h3>
-            <p>
-              Making and designing electronics to help people have an easier
-              life
-            </p>
-          </div>
+          <a href="#services" title="Learn more about Electronics service">
+            <div class="icon"><i class="fa-solid fa-robot"></i></div>
+            <div class="info">
+              <h3>Electronics</h3>
+              <p>
+                Making and designing electronics to help people have an easier
+                life
+              </p>
+            </div>
+          </a>
         </div>
         <div class="card">
-          <div class="icon"><i class="fa-solid fa-code"></i></div>
-          <div class="info">
-            <h3>Programming</h3>
-            <p>
-              Writing programs with C/C++ Python and Java and above that making
-              websites
-            </p>
-          </div>
+          <a href="#services" title="Learn more about Programming service">
+            <div class="icon"><i class="fa-solid fa-code"></i></div>
+            <div class="info">
+              <h3>Programming</h3>
+              <p>
+                Writing programs with C/C++ Python and Java and above that
+                making websites
+              </p>
+            </div>
+          </a>
         </div>
         <div class="card">
-          <div class="icon"><i class="fa-solid fa-user-tie"></i></div>
-          <div class="info">
-            <h3>Business</h3>
-            <p>Opening a virtual company to expand</p>
-          </div>
+          <a href="#services" title="Learn more about Business service">
+            <div class="icon"><i class="fa-solid fa-user-tie"></i></div>
+            <div class="info">
+              <h3>Business</h3>
+              <p>Opening a virtual company to expand</p>
+            </div>
+          </a>
         </div>
       </div>
     </section>
+
     <section class="projects" id="projects">
       <h2 class="title">Projects</h2>
       <div class="content">
         <div class="project-card">
           <div class="project-image">
-            <img src="./images/pseudo.png" alt="image" id="pse"/>
+            <img
+              src="./images/pseudo.png"
+              alt="Screenshot of Pseudo-code app"
+              id="pse"
+            />
           </div>
           <div class="project-info">
             <p class="project-category">An app for IGCSE Students</p>
             <strong class="project-title">
               <span>Pseudo-code</span>
-              <a href="https://pseudo-code.onrender.com/" target="_blank" class="more-details">Open App</a>
+              <a
+                href="https://pseudo-code.onrender.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Open Pseudo-code app"
+                class="more-details"
+              >
+                Open App
+              </a>
             </strong>
           </div>
         </div>
         <div class="project-card">
           <div class="project-image">
-            <img src="./images/tic.png" alt="image" />
+            <img src="./images/tic.png" alt="Screenshot of Tic-Tac-Toe game" />
           </div>
           <div class="project-info">
-            <p class="project-category">the tic-tac-toe game</p>
+            <p class="project-category">The tic-tac-toe game</p>
             <strong class="project-title">
-              <span>Tic-Tac_Toe</span>
-              <a href="https://tic-tac-toe-q0ww.onrender.com/" target="_blank" class="more-details">Open App</a>
+              <span>Tic-Tac-Toe</span>
+              <a
+                href="https://tic-tac-toe-q0ww.onrender.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Open Tic-Tac-Toe game"
+                class="more-details"
+              >
+                Open App
+              </a>
             </strong>
           </div>
         </div>
       </div>
     </section>
+
     <section class="contact" id="contact">
       <h2 class="title">Let's work together</h2>
       <div class="content">
-          <div class="card">
-            <a href="tel:+201000177578">
-          <div class="icon"><i class="fa-solid fa-phone"></i></div>
-          <div class="info">
-            <h3>Phone</h3>
-            <p>+201000177578</p>
-          </div>
+        <div class="card">
+          <a href="tel:+201000177578" title="Call us">
+            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="info">
+              <h3>Phone</h3>
+              <p>+201000177578</p>
+            </div>
+          </a>
         </div>
         <div class="card">
-          <a href="mailto:mohamed.ma.ayman@gmail.com">
+          <a href="mailto:mohamed.ma.ayman@gmail.com" title="Send us an email">
             <div class="icon"><i class="fa-solid fa-envelope"></i></div>
             <div class="info">
               <h3>Mail</h3>
@@ -138,26 +187,40 @@
     </section>
 
     <footer>
-      <p>Copyights @ <span>Mohamed Ayman</span></p>
+      <p>Copyrights @ <span>Mohamed Ayman</span></p>
       <div class="social-icons">
         <a
           href="https://www.linkedin.com/in/mohamed-ayman-b45b42218/"
           target="_blank"
-          ><i class="fa-brands fa-linkedin"></i
-        ></a>
-        <a href="https://www.instagram.com/the_ma_productions/" target="_blank"
-          ><i class="fa-brands fa-instagram"></i
-        ></a>
+          rel="noopener noreferrer"
+          title="LinkedIn profile"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/the_ma_productions/"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Instagram profile"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
         <a
           href="https://www.facebook.com/The-MA-Productions-112545011433228"
           target="_blank"
-          ><i class="fa-brands fa-facebook"></i
-        ></a>
+          rel="noopener noreferrer"
+          title="Facebook page"
+        >
+          <i class="fa-brands fa-facebook"></i>
+        </a>
         <a
-          href="https://www.youtube.com/channel/UCMuRZ8bo8G4oFWlZ0FpirnA"
+          href="https://www.youtube.com/channel/YOUR_YOUTUBE_CHANNEL_ID"
           target="_blank"
-          ><i class="fa-brands fa-youtube"></i
-        ></a>
+          rel="noopener noreferrer"
+          title="YouTube channel (placeholder)"
+        >
+          <i class="fa-brands fa-youtube"></i>
+        </a>
       </div>
     </footer>
   </body>
